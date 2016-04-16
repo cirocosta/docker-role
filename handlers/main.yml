@@ -8,6 +8,3 @@
 
 - name: Restart docker
   service: name=docker state=restarted
-
-- name: Restart dockerio
-  service: name=docker.io state=restarted
